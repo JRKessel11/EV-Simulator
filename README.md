@@ -5,9 +5,15 @@ This short project simulates a probability-based simulation to compare theoretic
 The simulator created tracks:
   - Theoretical expected value per trade
   - Simulated expected value per trade
-  - total profit
-  - simulated win rate
-  - max drawdown
+  - Total profit
+  - Simulated win rate
+  - Max drawdown
+
+Inputs include:
+  - Probability of a win
+  - Win amount unit
+  - Loss amount unit
+  - Total number of trials
 
 What concept this reinforced:
   - Variance affects any strategy you put into place, even ones with high or positive expected value.
