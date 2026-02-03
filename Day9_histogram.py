@@ -66,7 +66,7 @@ def main():
     print(f"Worst max drawdown (per run): {max(max_dds):.2f}")
 
     plt.hist(ending_pnls, bins=25)
-    plt.title("Distorubtion of Ending P&L (200 runs)")
+    plt.title("Distribution of Ending P&L (200 runs)")
     plt.xlabel("Ending P&L")
     plt.ylabel("Frequency")
     plt.axvline(p5, linestyle="--", linewidth=2, label="5th percentile")
