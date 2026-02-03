@@ -21,4 +21,5 @@ What concept this reinforced:
 
 #Histogram
 To better understand risk beyond average expected value dont above, the simulator was run multiple times and the P&L was collected. The histogram below shows that even with positive EV, results can vary widely due to randomness. The 5th percentile P&L shows the worst 5% of simulations. This is considered to be the worst-case outcomes.
+
 Histogram: ![Histogram of Ending P&L](images/day9_histogram.png)
